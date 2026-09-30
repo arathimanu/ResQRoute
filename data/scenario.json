@@ -1,0 +1,22 @@
+{
+  "disaster_name": "Chennai Adyar Basin Flood Response",
+  "disaster_type": "Flood",
+  "disaster_severity": 0.80,
+  "hazard_centre": [13.0100, 80.2483],
+  "hazard_centre_name": "Adyar River Basin (Nandanam / Saidapet)",
+  "hazard_radius_km": 6.5,
+  "description": "Simulated monsoon flood scenario focused on the Adyar river corridor in Chennai. Proximity to the Adyar basin and local facility vulnerability contribute to the scenario-based risk estimates.",
+  "disclaimer": "Scenario-Based Risk Estimate — Risk probability scores are derived from static geographic exposure, facility vulnerability, population density, and disaster severity parameters. They are scenario simulation estimates, not live sensor predictions.",
+  "risk_weights": {
+    "hazard_exposure": 0.40,
+    "disaster_severity": 0.25,
+    "population_factor": 0.20,
+    "vulnerability_score": 0.15
+  },
+  "risk_thresholds": {
+    "high": 0.75,
+    "medium": 0.50
+  },
+  "damaged_road_penalty": 1.5,
+  "average_speed_kmh": 30.0
+}

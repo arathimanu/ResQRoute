@@ -1,0 +1,494 @@
+{
+  "metadata": {
+    "source": "OpenStreetMap contributors / Chennai Geographic Infrastructure",
+    "area": "Chennai, Tamil Nadu, India",
+    "generated_at": "2026-09-30T07:58:28.528356+00:00",
+    "total_nodes": 19,
+    "total_edges": 22
+  },
+  "nodes": {
+    "ripon_building": {
+      "lat": 13.0827,
+      "lon": 80.2707,
+      "label": "Ripon Building"
+    },
+    "govt_general_hospital": {
+      "lat": 13.0827,
+      "lon": 80.2719,
+      "label": "GGH Chennai"
+    },
+    "stanley_hospital": {
+      "lat": 13.1085,
+      "lon": 80.2866,
+      "label": "Stanley Hospital"
+    },
+    "rajiv_gandhi_hospital": {
+      "lat": 12.9957,
+      "lon": 80.2157,
+      "label": "RGGGH"
+    },
+    "jn_stadium": {
+      "lat": 13.0048,
+      "lon": 80.2613,
+      "label": "JN Stadium"
+    },
+    "ymca_nandanam": {
+      "lat": 13.01,
+      "lon": 80.2483,
+      "label": "YMCA Nandanam"
+    },
+    "marina_beach": {
+      "lat": 13.05,
+      "lon": 80.2824,
+      "label": "Marina Beach"
+    },
+    "koyambedu_market": {
+      "lat": 13.0694,
+      "lon": 80.1948,
+      "label": "Koyambedu"
+    },
+    "chennai_airport_road": {
+      "lat": 12.9941,
+      "lon": 80.1789,
+      "label": "Airport Logistics"
+    },
+    "anna_nagar": {
+      "lat": 13.0868,
+      "lon": 80.2101,
+      "label": "Anna Nagar"
+    },
+    "j_central": {
+      "lat": 13.0827,
+      "lon": 80.275,
+      "label": "Chennai Central Junction"
+    },
+    "j_egmore": {
+      "lat": 13.0732,
+      "lon": 80.2609,
+      "label": "Egmore Junction"
+    },
+    "j_mount_road": {
+      "lat": 13.06,
+      "lon": 80.255,
+      "label": "Anna Salai (Mount Road)"
+    },
+    "j_nandanam": {
+      "lat": 13.025,
+      "lon": 80.245,
+      "label": "Nandanam Signal"
+    },
+    "j_adyar_bridge": {
+      "lat": 13.008,
+      "lon": 80.252,
+      "label": "Adyar Bridge Crossing"
+    },
+    "j_guindy": {
+      "lat": 13.0067,
+      "lon": 80.202,
+      "label": "Guindy Kathipara Junction"
+    },
+    "j_vadapalani": {
+      "lat": 13.05,
+      "lon": 80.212,
+      "label": "Vadapalani Signal"
+    },
+    "j_koyambedu": {
+      "lat": 13.0694,
+      "lon": 80.205,
+      "label": "Koyambedu Flyover"
+    },
+    "j_perambur": {
+      "lat": 13.11,
+      "lon": 80.25,
+      "label": "Perambur Flyover"
+    }
+  },
+  "edges": [
+    {
+      "u": "ripon_building",
+      "v": "govt_general_hospital",
+      "distance_km": 0.5,
+      "status": "CLEAR",
+      "name": "P.H. Road",
+      "geometry": [
+        [
+          13.0827,
+          80.2707
+        ],
+        [
+          13.0827,
+          80.2719
+        ]
+      ]
+    },
+    {
+      "u": "ripon_building",
+      "v": "j_central",
+      "distance_km": 0.5,
+      "status": "CLEAR",
+      "name": "Sydenhams Road",
+      "geometry": [
+        [
+          13.0827,
+          80.2707
+        ],
+        [
+          13.0827,
+          80.275
+        ]
+      ]
+    },
+    {
+      "u": "govt_general_hospital",
+      "v": "j_central",
+      "distance_km": 0.5,
+      "status": "CLEAR",
+      "name": "EVR Periyar Salai",
+      "geometry": [
+        [
+          13.0827,
+          80.2719
+        ],
+        [
+          13.0827,
+          80.275
+        ]
+      ]
+    },
+    {
+      "u": "govt_general_hospital",
+      "v": "marina_beach",
+      "distance_km": 3.81,
+      "status": "CLEAR",
+      "name": "Kamajar Salai",
+      "geometry": [
+        [
+          13.0827,
+          80.2719
+        ],
+        [
+          13.05,
+          80.2824
+        ]
+      ]
+    },
+    {
+      "u": "stanley_hospital",
+      "v": "j_perambur",
+      "distance_km": 3.97,
+      "status": "CLEAR",
+      "name": "Old Jail Road",
+      "geometry": [
+        [
+          13.1085,
+          80.2866
+        ],
+        [
+          13.11,
+          80.25
+        ]
+      ]
+    },
+    {
+      "u": "j_perambur",
+      "v": "ripon_building",
+      "distance_km": 3.77,
+      "status": "CLEAR",
+      "name": "Wall Tax Road",
+      "geometry": [
+        [
+          13.11,
+          80.25
+        ],
+        [
+          13.0827,
+          80.2707
+        ]
+      ]
+    },
+    {
+      "u": "j_central",
+      "v": "j_egmore",
+      "distance_km": 1.86,
+      "status": "CLEAR",
+      "name": "Gandhi Irwin Road",
+      "geometry": [
+        [
+          13.0827,
+          80.275
+        ],
+        [
+          13.0732,
+          80.2609
+        ]
+      ]
+    },
+    {
+      "u": "j_egmore",
+      "v": "anna_nagar",
+      "distance_km": 5.71,
+      "status": "CLEAR",
+      "name": "P.H. Road Corridor",
+      "geometry": [
+        [
+          13.0732,
+          80.2609
+        ],
+        [
+          13.0868,
+          80.2101
+        ]
+      ]
+    },
+    {
+      "u": "j_egmore",
+      "v": "j_mount_road",
+      "distance_km": 1.6,
+      "status": "CLEAR",
+      "name": "Pantheon Road",
+      "geometry": [
+        [
+          13.0732,
+          80.2609
+        ],
+        [
+          13.06,
+          80.255
+        ]
+      ]
+    },
+    {
+      "u": "j_mount_road",
+      "v": "marina_beach",
+      "distance_km": 3.17,
+      "status": "CLEAR",
+      "name": "Wallajah Road",
+      "geometry": [
+        [
+          13.06,
+          80.255
+        ],
+        [
+          13.05,
+          80.2824
+        ]
+      ]
+    },
+    {
+      "u": "j_mount_road",
+      "v": "j_vadapalani",
+      "distance_km": 4.79,
+      "status": "CLEAR",
+      "name": "Arcot Road",
+      "geometry": [
+        [
+          13.06,
+          80.255
+        ],
+        [
+          13.05,
+          80.212
+        ]
+      ]
+    },
+    {
+      "u": "j_mount_road",
+      "v": "j_nandanam",
+      "distance_km": 4.04,
+      "status": "CLEAR",
+      "name": "Anna Salai (Mount Road)",
+      "geometry": [
+        [
+          13.06,
+          80.255
+        ],
+        [
+          13.025,
+          80.245
+        ]
+      ]
+    },
+    {
+      "u": "j_nandanam",
+      "v": "ymca_nandanam",
+      "distance_km": 1.71,
+      "status": "CLEAR",
+      "name": "Chamiers Road",
+      "geometry": [
+        [
+          13.025,
+          80.245
+        ],
+        [
+          13.01,
+          80.2483
+        ]
+      ]
+    },
+    {
+      "u": "j_nandanam",
+      "v": "jn_stadium",
+      "distance_km": 2.86,
+      "status": "CLEAR",
+      "name": "Venkatanarayana Road",
+      "geometry": [
+        [
+          13.025,
+          80.245
+        ],
+        [
+          13.0048,
+          80.2613
+        ]
+      ]
+    },
+    {
+      "u": "ymca_nandanam",
+      "v": "j_adyar_bridge",
+      "distance_km": 0.5,
+      "status": "CLEAR",
+      "name": "Adyar River Road",
+      "geometry": [
+        [
+          13.01,
+          80.2483
+        ],
+        [
+          13.008,
+          80.252
+        ]
+      ]
+    },
+    {
+      "u": "j_adyar_bridge",
+      "v": "rajiv_gandhi_hospital",
+      "distance_km": 4.16,
+      "status": "CLEAR",
+      "name": "Sardar Patel Road",
+      "geometry": [
+        [
+          13.008,
+          80.252
+        ],
+        [
+          12.9957,
+          80.2157
+        ]
+      ]
+    },
+    {
+      "u": "rajiv_gandhi_hospital",
+      "v": "j_guindy",
+      "distance_km": 1.92,
+      "status": "CLEAR",
+      "name": "GST Road Corridor",
+      "geometry": [
+        [
+          12.9957,
+          80.2157
+        ],
+        [
+          13.0067,
+          80.202
+        ]
+      ]
+    },
+    {
+      "u": "j_guindy",
+      "v": "chennai_airport_road",
+      "distance_km": 2.87,
+      "status": "CLEAR",
+      "name": "GST Road (Airport Approach)",
+      "geometry": [
+        [
+          13.0067,
+          80.202
+        ],
+        [
+          12.9941,
+          80.1789
+        ]
+      ]
+    },
+    {
+      "u": "j_vadapalani",
+      "v": "koyambedu_market",
+      "distance_km": 2.85,
+      "status": "CLEAR",
+      "name": "Inner Ring Road",
+      "geometry": [
+        [
+          13.05,
+          80.212
+        ],
+        [
+          13.0694,
+          80.1948
+        ]
+      ]
+    },
+    {
+      "u": "koyambedu_market",
+      "v": "j_koyambedu",
+      "distance_km": 1.1,
+      "status": "CLEAR",
+      "name": "100ft Road",
+      "geometry": [
+        [
+          13.0694,
+          80.1948
+        ],
+        [
+          13.0694,
+          80.205
+        ]
+      ]
+    },
+    {
+      "u": "j_koyambedu",
+      "v": "anna_nagar",
+      "distance_km": 2.01,
+      "status": "CLEAR",
+      "name": "Inner Ring Road North",
+      "geometry": [
+        [
+          13.0694,
+          80.205
+        ],
+        [
+          13.0868,
+          80.2101
+        ]
+      ]
+    },
+    {
+      "u": "j_vadapalani",
+      "v": "j_guindy",
+      "distance_km": 4.94,
+      "status": "CLEAR",
+      "name": "100ft Road South",
+      "geometry": [
+        [
+          13.05,
+          80.212
+        ],
+        [
+          13.0067,
+          80.202
+        ]
+      ]
+    }
+  ],
+  "key_location_nodes": {
+    "ripon_building": "ripon_building",
+    "govt_general_hospital": "govt_general_hospital",
+    "stanley_hospital": "stanley_hospital",
+    "rajiv_gandhi_hospital": "rajiv_gandhi_hospital",
+    "jn_stadium": "jn_stadium",
+    "ymca_nandanam": "ymca_nandanam",
+    "marina_beach": "marina_beach",
+    "koyambedu_market": "koyambedu_market",
+    "chennai_airport_road": "chennai_airport_road",
+    "anna_nagar": "anna_nagar"
+  }
+}

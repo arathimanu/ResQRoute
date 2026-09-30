@@ -23,13 +23,17 @@ class Depot:
     """Represents a relief supply depot / base station.
 
     Attributes:
-        id: Node ID matching a vertex in RoadGraph (e.g., "Central Depot").
+        id: Node ID matching a vertex in RoadGraph (e.g., "ripon_building").
         name: Human-readable name.
         available_supplies: Total inventory count of relief units in stock.
+        lat: Geographic latitude
+        lon: Geographic longitude
     """
     id: str
     name: str
     available_supplies: int = 0
+    lat: float = 0.0
+    lon: float = 0.0
 
 
 @dataclass
@@ -43,6 +47,8 @@ class Vehicle:
         base_depot: Starting / home depot node ID in RoadGraph.
         current_location: Current node ID where the vehicle is stationed.
         current_time: Cumulative mission clock time (in hours or minutes).
+        lat: Current latitude
+        lon: Current longitude
     """
     id: str
     capacity: int
@@ -50,6 +56,8 @@ class Vehicle:
     base_depot: str = ""
     current_location: str = ""
     current_time: float = 0.0
+    lat: float = 0.0
+    lon: float = 0.0
 
     def __post_init__(self) -> None:
         # If current_location is not explicitly provided, default to base_depot
@@ -72,7 +80,7 @@ class AffectedLocation:
     """Represents a disaster-affected site requiring emergency relief supplies.
 
     Attributes:
-        id: Node ID matching a vertex in RoadGraph (e.g., "Field Hospital").
+        id: Node ID matching a vertex in RoadGraph (e.g., "govt_general_hospital").
         name: Human-readable name of the location.
         demand: Total relief units requested by the location.
         urgency: Priority rating (e.g., 1 = Critical, 2 = High, 3 = Moderate).
@@ -80,6 +88,13 @@ class AffectedLocation:
         deadline: Maximum allowable mission time (in hours/minutes) by which aid must arrive.
         delivered_amount: Relief units received so far.
         status: Current service status (UNSERVED, PARTIALLY_SERVED, SERVED).
+        lat: Geographic latitude
+        lon: Geographic longitude
+        population_served: Population count served by this facility
+        vulnerability_score: Facility vulnerability rating (0.0 to 1.0)
+        risk_probability: Scenario-Based Risk Estimate (0.0 to 1.0)
+        risk_level: HIGH / MEDIUM / LOW
+        risk_breakdown: Detailed dict of factor math contributions
     """
     id: str
     name: str
@@ -88,6 +103,13 @@ class AffectedLocation:
     deadline: float
     delivered_amount: int = 0
     status: str = RequestStatus.UNSERVED
+    lat: float = 0.0
+    lon: float = 0.0
+    population_served: int = 0
+    vulnerability_score: float = 0.5
+    risk_probability: float = 0.0
+    risk_level: str = "LOW"
+    risk_breakdown: Optional[dict] = None
 
     @property
     def remaining_demand(self) -> int:
