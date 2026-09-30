@@ -81,23 +81,7 @@ export default function Dashboard({
           onSelectRoad={onSelectRoad}
         />
 
-        {/* Floating Disclaimer Banner */}
-        <div style={{
-          position: "absolute",
-          bottom: "12px",
-          left: "12px",
-          zIndex: 1000,
-          background: "rgba(15, 23, 42, 0.90)",
-          color: "#f8fafc",
-          padding: "8px 14px",
-          borderRadius: "8px",
-          fontSize: "0.75rem",
-          maxWidth: "480px",
-          backdropFilter: "blur(4px)",
-          border: "1px solid #334155"
-        }}>
-          <strong>📡 Notice:</strong> {scenario?.scenario?.disclaimer || "Scenario-Based Risk Estimates and demand are simulation parameters based on real geographic coordinates."}
-        </div>
+
       </div>
     </div>
   );
